@@ -1,6 +1,5 @@
 def fizzBuzz(x):
   if(x % 3 == 0):
     return "Fizz"
-  else:
-    print("Fail")
-
+  if(x % 5 == 0):
+    return "Buzz"
