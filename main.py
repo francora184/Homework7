@@ -1,0 +1,3 @@
+def fizzBuzz():
+  print("Fail")
+
