@@ -11,5 +11,9 @@ def test_fizz():
 
 def test_leapyear():
     assert leapYear(2000) == "Yes"
+    assert leapYear(1800) == "No"
+    assert leapYear(2400) == "Yes"
+    assert leapYear(1900) == "No"
+
     
 
